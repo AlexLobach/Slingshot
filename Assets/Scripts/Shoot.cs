@@ -27,7 +27,6 @@ public class Shoot : MonoBehaviour
         {
             ContinueDrag();
         }
-
     }
     
         void StartDrag()
