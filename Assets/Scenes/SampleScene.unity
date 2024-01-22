@@ -640,10 +640,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 10
-  ball: {fileID: 105355856}
+  ballRB: {fileID: 105355856}
+  ball: {fileID: 1931988542}
   slingshotMiddle: {fileID: 1319673237}
   rubberBandLeft: {fileID: 1319673240}
   rubberBandRight: {fileID: 1319673240}
+  ballPrefab: {fileID: 5109502285384113993, guid: 9e24897d37c0dfe41a53ae2060032278, type: 3}
+  respawnPosition: {fileID: 1319673237}
 --- !u!120 &1319673240
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -866,6 +869,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7387410745690847038, guid: a73d8f0a13f69f94da5ffd1496aae0c1, type: 3}
   m_PrefabInstance: {fileID: 6439247821522769788}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1931988542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5109502285384113993, guid: 9e24897d37c0dfe41a53ae2060032278, type: 3}
+  m_PrefabInstance: {fileID: 5109502285413238022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1978116964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1978116965}
+  m_Layer: 0
+  m_Name: Respawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1978116965
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978116964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.99, y: -2.71, z: 0.2109534}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2146322591
 PrefabInstance:
   m_ObjectHideFlags: 0
